@@ -3,19 +3,52 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/runtime": "^7.11.2",
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.8",
+    "@types/lodash": "^4.14.159",
+    "@types/node": "^14.0.27",
+    "@types/qs": "^6.9.5",
+    "@types/react": "^16.9.44",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "auto-bind": "^4.0.0",
+    "formik": "^2.1.5",
+    "formik-material-ui": "^3.0.0",
+    "jqwidgets-scripts": "^7.0.0",
+    "ol": "^6.4.3",
+    "ol-cesium": "^2.10.0",
+    "ol-ext": "^3.1.12",
+    "ol-geocoder": "^4.0.0",
+    "ol-layerswitcher": "^3.6.0",
+    "ol-proj": "^1.1.0",
+    "qs": "^6.9.4",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-jss": "^10.3.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "redux": "^4.0.5",
+    "redux-devtools": "^3.5.0",
+    "typescript": "^3.9.7",
     "web-vitals": "^0.2.4"
+  },
+  "devDependencies": {
+    "@reduxjs/toolkit": "^1.4.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "lint": "eslint . --fix && flow"
   },
   "eslintConfig": {
     "extends": [
