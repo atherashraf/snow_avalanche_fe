@@ -1,0 +1,27 @@
+{
+  "extends": ["react-app"],
+  "plugins": [],
+  "rules": {
+
+    "semi": [2, "always"],
+    "quotes": ["error", "double"],
+    "comma-dangle": ["error", "never"],
+    "indent": ["error", 4, { "SwitchCase": 1 }],
+    "no-cond-assign": ["error", "always"],
+
+    // disable now, but enable in the future
+    "one-var": "off", // ["error", "never"]
+    "curly": ["error", "multi"],
+    "object-curly-spacing": ["error", "never"],
+    "array-bracket-spacing": ["error", "never"],
+    "space-before-function-paren": ["error", {
+      "anonymous": "always",
+      "named": "always",
+      "asyncArrow": "always"
+    }],
+    // disable
+    "init-declarations": "off",
+    "no-console": "off",
+    "no-inline-comments": "off"
+  }
+}
